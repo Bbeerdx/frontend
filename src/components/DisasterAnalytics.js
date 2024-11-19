@@ -31,7 +31,7 @@ Chart.register(
   Title
 );
 
-const Api_URL = "http://localhost:5000";
+const Api_URL = "https://dis-rnje.onrender.com";
 
 const DisasterAnalytics = () => {
   const chartRef = useRef(null);

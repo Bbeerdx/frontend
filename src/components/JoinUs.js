@@ -19,7 +19,7 @@ const JoinUs = () => {
     e.preventDefault();
 
     // Backend API for volunteer registration
-    const apiUrl = "http://localhost:5000/registerAsVolunteer";
+    const apiUrl = "https://dis-rnje.onrender.com/registerAsVolunteer";
     try {
       const response = await fetch(apiUrl, {
         method: "POST",
